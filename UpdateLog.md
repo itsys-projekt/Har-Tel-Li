@@ -1,11 +1,13 @@
 # MenuProject
 
-Update Log 1.0:
+# Update Log 1.0:
+
 -Added prototype MenuSlider (HTML,CSS,Javascript)
 
 https://itsys-projekt.github.io/Menu/version_1/index.html
 
-Update Log 1.1:
+# Update Log 1.1:
+
 -Added HTML which links all resources and versions together
 
 https://itsys-projekt.github.io/Menu/
