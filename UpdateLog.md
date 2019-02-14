@@ -21,3 +21,9 @@ https://itsys-projekt.github.io/Menu/5_star_rating/5_star_rating.html
 -Added prototype MenuSwiper (HTML,CSS,Javascript(Babel)):
 
 https://itsys-projekt.github.io/Menu/alternate_version%20_1/MenuSwipe/index.html
+
+# Update Log 1.2:
+
+-Added Social Media Icons resource (HTML,CSS):
+
+https://itsys-projekt.github.io/Menu/social_media_icons/social_media_icons.html
