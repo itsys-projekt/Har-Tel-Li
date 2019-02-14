@@ -4,26 +4,28 @@
 
 -Added prototype MenuSlider (HTML,CSS,Javascript):
 
-https://itsys-projekt.github.io/Menu/version_1/index.html
+https://itsys-projekt.github.io/Har-Tel-Li/version_1/index.html
 
 # Update Log 1.1:
 
 -Added HTML which links all resources and versions together:
 
-https://itsys-projekt.github.io/Menu/
+https://itsys-projekt.github.io/Har-Tel-Li/
 
 
 -Added 5-star-rating resource (HTML,CSS):
 
-https://itsys-projekt.github.io/Menu/5_star_rating/5_star_rating.html
+https://itsys-projekt.github.io/Har-Tel-Li/5_star_rating/5_star_rating.html
 
 
 -Added prototype MenuSwiper (HTML,CSS,Javascript(Babel)):
 
-https://itsys-projekt.github.io/Menu/alternate_version%20_1/MenuSwipe/index.html
+https://itsys-projekt.github.io/Har-Tel-Li/alternate_version%20_1/MenuSwipe/index.html
 
 # Update Log 1.2:
 
 -Added Social Media Icons resource (HTML,CSS):
 
-https://itsys-projekt.github.io/Menu/social_media_icons/social_media_icons.html
+https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons.html
+
+-Changed Name from Menu to HarTelLi
