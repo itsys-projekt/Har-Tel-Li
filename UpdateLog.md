@@ -29,3 +29,9 @@ https://itsys-projekt.github.io/Har-Tel-Li/alternate_version%20_1/MenuSwipe/inde
 https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons.html
 
 -Changed Name from Menu to HarTelLi
+
+# Update Log 1.3:
+
+-Changed MenuSwipe(alternate_version) jsBabel to pure Javascript.
+
+
