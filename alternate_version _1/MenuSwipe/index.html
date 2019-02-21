@@ -136,48 +136,59 @@
         <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Sucks big time - 1 star"></label>
         <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
     </fieldset>-->
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <script type="text/babel">
-        const _C = document.querySelector('.container'),
+
+    <script type="text/javascript">
+        var _C = document.querySelector('.container');
         N = _C.children.length;
 
-        let i = 0, x0 = null, locked = false;
+        var i = 0,
+        x0 = null,
+        locked = false
 
-        function unify(e) { return e.changedTouches ? e.changedTouches[0] : e };
+        function unify(e) {
+        return e.changedTouches ? e.changedTouches[0] : e;
+        };
 
         function lock(e) {
         x0 = unify(e).clientX;
-        _C.classList.toggle('smooth', !(locked = true))
+
+        _C.classList.toggle('smooth', !(locked = true));
         };
 
         function drag(e) {
         e.preventDefault();
 
-        if (locked)
-        _C.style.setProperty('--tx', `${Math.round(unify(e).clientX - x0)}px`)
+        if (locked) {
+        _C.style.setProperty('--tx', "".concat(Math.round(unify(e).clientX - x0), "px"));
+        }
         };
 
         function move(e) {
         if (locked) {
-        let dx = unify(e).clientX - x0, s = Math.sign(dx);
+        var dx = unify(e).clientX - x0,
+        s = Math.sign(dx);
+        if ((i > 0 || s < 0) && (i < N - 1 || s > 0)) _C.style.setProperty('--i', i -= s);
 
-        if ((i > 0 || s < 0) && (i < N - 1 || s > 0))
-        _C.style.setProperty('--i', i -= s);
         _C.style.setProperty('--tx', '0px');
+
         _C.classList.toggle('smooth', !(locked = false));
-        x0 = null
+
+        x0 = null;
         }
         };
 
         _C.style.setProperty('--n', N);
 
         _C.addEventListener('mousedown', lock, false);
+
         _C.addEventListener('touchstart', lock, false);
 
         _C.addEventListener('mousemove', drag, false);
+
         _C.addEventListener('touchmove', drag, false);
 
         _C.addEventListener('mouseup', move, false);
+
         _C.addEventListener('touchend', move, false);
     </script>
 </body>

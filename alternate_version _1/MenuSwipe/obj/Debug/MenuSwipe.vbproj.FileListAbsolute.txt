@@ -31,3 +31,14 @@ C:\Users\de44241\Desktop\Berufsschule\ITSys\ITSys-Project-master\alternate_versi
 C:\Users\de44241\Desktop\Berufsschule\ITSys\ITSys-Project-master\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.dll
 C:\Users\de44241\Desktop\Berufsschule\ITSys\ITSys-Project-master\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.xml
 C:\Users\de44241\Desktop\Berufsschule\ITSys\ITSys-Project-master\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.pdb
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\bin\MenuSwipe.dll.config
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\bin\MenuSwipe.dll
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\bin\MenuSwipe.pdb
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\bin\MenuSwipe.xml
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.vbprojAssemblyReference.cache
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.Resources.resources
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.vbproj.GenerateResource.cache
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.vbproj.CoreCompileInputs.cache
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.dll
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.xml
+C:\Users\de44241\Desktop\Berufsschule\ITSys\Hartelli\alternate_version _1\MenuSwipe\obj\Debug\MenuSwipe.pdb
