@@ -34,4 +34,6 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Changed MenuSwipe(alternate_version) jsBabel to pure Javascript.
 
+# Update Log 1.4:
 
+-Splitted files (Spaghetti Code) ;)
