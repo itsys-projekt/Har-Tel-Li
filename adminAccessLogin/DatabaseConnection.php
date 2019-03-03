@@ -14,7 +14,7 @@ class DatabaseConnection
         $this->connection = new \PDO('mysql:host=' . DB_HOST . ';dbname=files', DB_NAME, DB_PASS);
     }
 
-    public function query($query): \PDOStatement
+    public function query($query)
     {
         return $this->connection->query($query);
     }
