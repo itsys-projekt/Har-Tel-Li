@@ -1,0 +1,22 @@
+ul {
+    position: absolute;
+    align-content: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin-right: 1vw;
+}
+
+i {
+    transition: all .2s ease-in-out;
+}
+
+i:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
