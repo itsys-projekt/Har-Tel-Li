@@ -34,4 +34,10 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Changed MenuSwipe(alternate_version) jsBabel to pure Javascript.
 
+# Update Log 1.4:
+
+1. File Spliting (Spaghetti Code) ;)
+2. Image upload to folder (maybe we have to load images from the folder to the site)
+3. Login for Admins (to upload images)
+
 
