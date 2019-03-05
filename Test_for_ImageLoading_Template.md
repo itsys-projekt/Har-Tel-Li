@@ -4,7 +4,7 @@
 ``composer install``  
 ``composer require twig/twig``
 
-Setup for Twig:
+***Setup for Twig:***
 ````php
 <?php
 // setup.php
@@ -16,7 +16,7 @@ $twig = new Twig_Environment($loader);
 
 ````
 
-Rendering the Template and displaying the images:
+***Rendering the Template and displaying the images:***
 
 ````php
 <?php
@@ -37,7 +37,7 @@ echo $tpl->render([
 
 ````
 
-HTML:
+***HTML:***
 
 ````html
 <!-- index.html.twig -->
