@@ -1,4 +1,8 @@
-***Composer is needed to run "twig"***
+***Composer is needed to run "twig"***  
+
+[Composer installation](https://getcomposer.org/download/)  
+``composer install``  
+``composer require twig/twig``
 
 Setup for Twig:
 ````php
