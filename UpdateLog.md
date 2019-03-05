@@ -40,4 +40,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 2. Image upload to folder (maybe we have to load images from the folder to the site)
 3. Login for Admins (to upload images)
 
+# Update Log 1.5:
 
+* Created a Markdown file where we find an example of loading all the images from a directory directly into the browser
+   
