@@ -1,4 +1,4 @@
-***Composer is needed to run "twig"***  
+***Composer is needed to work with Twig***  
 
 [Composer installation](https://getcomposer.org/download/)  
 ``composer install``  
