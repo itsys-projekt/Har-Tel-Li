@@ -51,7 +51,7 @@ HTML:
 <body>
 
 {% for image in images %}
-    <img src='{{ image }}' alt='2'> <!-- src attribute to the path from the image -->
+    <img src='{{ image }}' alt=''> <!-- src attribute to the path from the image -->
 {% endfor %}
 
 </body>
