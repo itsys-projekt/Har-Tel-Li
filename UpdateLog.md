@@ -43,4 +43,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 # Update Log 1.5:
 
 * Created a Markdown file where we find an example of loading all the images from a directory directly into the browser
-   
+
+# Update Log 1.6:
+
+-MenuSwipe is now Responsive with a black footer for future content.
