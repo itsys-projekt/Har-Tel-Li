@@ -1,4 +1,4 @@
-       @import url("https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
+               @import url("https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
 
         html {
             overflow-y: hidden;
@@ -29,16 +29,10 @@
         .rating {
             border: none;
             float: left;
-            position: absolute;
-            z-index: 1000;
-            top: 90vh;
-            left: 5vw;
         }
 
             .rating > input {
                 display: none;
-                position: absolute;
-                z-index: 1000;
             }
 
             .rating > label:before {
@@ -47,21 +41,16 @@
                 font-family: FontAwesome;
                 display: inline-block;
                 content: "\f005";
-                position: absolute;
-                z-index: 1000;
             }
 
             .rating > .half:before {
                 content: "\f089";
                 position: absolute;
-                z-index: 1000;
             }
 
             .rating > label {
                 color: #ddd;
                 float: right;
-                position: absolute;
-                z-index: 1000;
             }
 
             /***** CSS Magic to Highlight Stars on Hover *****/
@@ -82,7 +71,7 @@
 
         * {
             margin: 0;
-            overflow-x:hidden;
+            overflow-x: hidden;
         }
 
         body {
@@ -91,8 +80,8 @@
         }
 
         .container {
-            position:absolute;
-            bottom:0;
+            position: absolute;
+            bottom: 0;
             --n: 1;
             display: flex;
             align-items: center;
@@ -119,7 +108,7 @@
         .picDiv {
             position: relative;
             overflow-x: hidden;
-            width:100%;
+            width: 100%;
         }
 
         .footer {
@@ -128,5 +117,5 @@
             height: 50px;
             background-color: black;
             width: 100%;
-            overflow-x:hidden;
+            overflow-x: hidden;
         }
