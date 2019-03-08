@@ -1,12 +1,12 @@
 # MenuProject
 
-# Update Log 1.0:
+## Update Log 1.0:
 
 -Added prototype MenuSlider (HTML,CSS,Javascript):
 
 https://itsys-projekt.github.io/Har-Tel-Li/version_1/index.html
 
-# Update Log 1.1:
+## Update Log 1.1:
 
 -Added HTML which links all resources and versions together:
 
@@ -22,7 +22,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/5_star_rating/5_star_rating.html
 
 https://itsys-projekt.github.io/Har-Tel-Li/alternate_version%20_1/MenuSwipe/index.html
 
-# Update Log 1.2:
+## Update Log 1.2:
 
 -Added Social Media Icons resource (HTML,CSS):
 
@@ -30,21 +30,21 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Changed Name from Menu to HarTelLi
 
-# Update Log 1.3:
+## Update Log 1.3:
 
 -Changed MenuSwipe(alternate_version) jsBabel to pure Javascript.
 
-# Update Log 1.4:
+## Update Log 1.4:
 
 1. File Splitting (Spaghetti Code) ;)
 2. Image upload to folder (maybe we have to load images from the folder to the site)
 3. Login for Admins (to upload images)
 
-# Update Log 1.5:
+## Update Log 1.5:
 
 * Created a Markdown file where we find an example of loading all the images from a directory directly into the browser
 
-# Update Log 1.6:
+## Update Log 1.6:
 
 -MenuSwipe is now Responsive with a black footer for future content.
 
@@ -52,7 +52,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 geile Scheiße !
 
-## extra Update Log 0.1:
+### extra Update Log 0.1:
 
 1. Created whole new Project for more structure and fusioning the other components
 2. added ``.json`` for Login (Admin Login) so we **don't** need Database
