@@ -85,4 +85,31 @@
             background-color: black;
             width: 100%;
             overflow-x: hidden;
+            opacity:0.8;
+        }
+		
+		
+         ul {
+                color:white;
+                position: fixed;
+                align-content: center;
+                transform: translate(-25%, -25%);
+                margin-left: 87.5vw;
+                font-size:8px;
+                bottom:-0.5vh;
+           }
+
+        li {
+            list-style-type: none;
+            float: left;
+            margin-right: 1vw;
+        }
+
+        i {
+            transition: all .2s ease-in-out;
+        }
+
+        i:hover {
+            cursor: pointer;
+            transform: scale(1.1);
         }
