@@ -1,6 +1,4 @@
-﻿function insertAfter(referenceNode, newNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-}
+//For the slideable Pictures
 
 let _C = document.querySelector('.container');
 N = _C.children.length;
@@ -55,17 +53,80 @@ _C.addEventListener('mouseup', move, false);
 
 _C.addEventListener('touchend', move, false);
 
-//var five_star_rating = innerHTML = "<fieldset class='rating'></fieldset>"
-//function addStarRatings() {
 
-//    var fieldset = document.createElement("fieldset");
-//    fieldset.setAttribute("class", "rating");
-//    fieldset.innerHTML = "<input type = 'radio' id = 'star5' name = 'rating' value = '5' /> <label class='full' for='star5' title='Awesome - 5 stars'> </label> <input type='radio' id='star4half' name='rating' value='4 and a half' /> <label class='half' for='star4half' title='Pretty good - 4.5 stars'> </label> <input type='radio' id='star4' name='rating' value='4' /> <label class='full' for='star4' title='Pretty good - 4 stars'> </label><input type='radio' id='star3half' name='rating' value='3 and a half' /> <label class='half' for='star3half' title='Meh - 3.5 stars'> </label> <input type='radio' id='star3' name='rating' value='3' /> <label class='full' for='star3' title='Meh - 3 stars'></label><input type='radio' id='star2half' name='rating' value='2 and a half' /> <label class='half' for='star2half' title='Kinda bad - 2.5 stars'> </label><input type='radio' id='star2' name='rating' value='2' /> <label class='full' for='star2' title='Kinda bad - 2 stars'> </label> <input type='radio' id='star1half' name='rating' value='1 and a half' /> <label class='half' for='star1half' title='Meh - 1.5 stars'> </label> <input type='radio' id='star1' name='rating' value='1' /> <label class='full' for='star1' title='Sucks big time - 1 star'> </label> <input type='radio' id='starhalf' name='rating' value='half' /> <label class='half' for='starhalf' title='Sucks big time - 0.5 stars'> </label> ";
-//    var pic = document.getElementsByClassName('picDiv');
 
-//    for (var i = 0; i <= pic.length; i++) {
-//        pic[i].append(fieldset);
-//    }
-    
-//}
+
+
+//For StarRating
+		class StarRating extends HTMLElement {
+    get value () {
+        return this.getAttribute('value') || 0;
+    }
+
+    set value (val) {
+        this.setAttribute('value', val);
+        this.highlight(this.value - 1);
+    }
+
+    get number () {
+        return this.getAttribute('number') || 5;
+    }
+
+    set number (val) {
+        this.setAttribute('number', val);
+
+        this.stars = [];
+
+        while (this.firstChild) {
+            this.removeChild(this.firstChild);
+        }
+
+        for (let i = 0; i < this.number; i++) {
+            let s = document.createElement('div');
+            s.className = 'star';
+            this.appendChild(s);
+            this.stars.push(s);
+        }
+
+        this.value = this.value;
+    }
+
+    highlight (index) {
+        this.stars.forEach((star, i) => {
+            star.classList.toggle('full', i <= index);
+        });
+    }
+
+    constructor () {
+        super();
+
+        this.number = this.number;
+
+        this.addEventListener('mousemove', e => {
+            let box = this.getBoundingClientRect(),
+                starIndex = Math.floor((e.pageX - box.left) / box.width * this.stars.length);
+
+            this.highlight(starIndex);
+        });
+
+        this.addEventListener('mouseout', () => {
+            this.value = this.value;
+        });
+
+        this.addEventListener('click', e => {
+            let box = this.getBoundingClientRect(),
+                starIndex = Math.floor((e.pageX - box.left) / box.width * this.stars.length);
+
+            this.value = starIndex + 1;
+
+            let rateEvent = new Event('rate');
+            this.dispatchEvent(rateEvent);
+        });
+    }
+}
+
+customElements.define('x-star-rating', StarRating);
+
+
+
 
