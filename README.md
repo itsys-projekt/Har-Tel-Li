@@ -53,7 +53,10 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 ## Update Log 1.7:
 
 -Changed the 5 star rating system (on MenuSwipe and 5_star_rating_resource)
+
 ->starsA stay selected, even if you select starsB
+
+(As shown here: https://www.youtube.com/watch?v=r7Yv4O4wAwI)
 
 ### extra Update Log 0.1:
 
