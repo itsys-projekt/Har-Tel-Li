@@ -58,6 +58,10 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 (As shown here: https://www.youtube.com/watch?v=r7Yv4O4wAwI)
 
+-Added Social Media Icons to the bottom-right-side
+
+-Changed opacity of the black footer (debatable if that looks better)
+
 ### extra Update Log 0.1:
 
 1. Created whole new Project for more structure and fusioning the other components
