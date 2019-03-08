@@ -49,3 +49,5 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 -MenuSwipe is now Responsive with a black footer for future content.
 
 -Added 5 star rating in the black footer.
+
+geile Scheiße !
