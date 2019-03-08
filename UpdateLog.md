@@ -56,4 +56,4 @@ geile Scheiße !
 
 1. Created whole new Project for more structure and fusioning the other components
 2. added ``.json`` for Login (Admin Login) so we don't need Database
-3. Used Twig to display the images, all images have the black footer with star rating
+3. Used Twig to display the images, all images include the black footer with star rating
