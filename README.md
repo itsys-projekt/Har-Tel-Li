@@ -64,7 +64,9 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 ## Update Log 1.7:
 
--Added custom font (symbols only), replaced stars with custom font stars
+-Added custom font (symbols only);
+_->replaced stars with custom font stars
+_->replaced social media icons with custom font social media icons
 
 -Font-Readme_How_to_use is in folder font
 
