@@ -190,17 +190,7 @@
   content: "\ead8";
 }
 
-.facebook{
-content:"\e900";
-}
 
-.twitter{
-content:"\e904";
-}
-
-.instagram{
-content:"\e901";
-}
 
         html {
             overflow-y: hidden;
@@ -290,7 +280,18 @@ content:"\e901";
             opacity:0.8;
         }
 		
-		
+.facebook{
+content:"\e900";
+}
+
+.twitter{
+content:"\e904";
+}
+
+.instagram{
+content:"\e901";
+}
+
          ul {
                 color:white;
                 position: fixed;
