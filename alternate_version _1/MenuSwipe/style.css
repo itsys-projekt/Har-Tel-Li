@@ -1,4 +1,7 @@
-        @font-face {
+	@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+	@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');       
+
+@font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?i83om2');
   src:  url('fonts/icomoon.eot?i83om2#iefix') format('embedded-opentype'),
@@ -190,8 +193,7 @@
 
 
 
-	@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
-	@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
 
         html {
             overflow-y: hidden;
