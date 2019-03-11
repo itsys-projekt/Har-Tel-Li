@@ -1,318 +1,377 @@
-	@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
-	@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');       
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
 
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?i83om2');
-  src:  url('fonts/icomoon.eot?i83om2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?i83om2') format('truetype'),
-    url('fonts/icomoon.woff?i83om2') format('woff'),
-    url('fonts/icomoon.svg?i83om2#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?i83om2');
+    src: url('fonts/icomoon.eot?i83om2#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?i83om2') format('truetype'), url('fonts/icomoon.woff?i83om2') format('woff'), url('fonts/icomoon.svg?i83om2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-facebook-brands:before {
-  content: "\e900";
+    content: "\e900";
 }
+
 .icon-instagram-brands:before {
-  content: "\e901";
+    content: "\e901";
 }
+
 .icon-star-regular:before {
-  content: "\e902";
+    content: "\e902";
 }
+
 .icon-star-solid:before {
-  content: "\e903";
+    content: "\e903";
 }
+
 .icon-twitter-square-brands:before {
-  content: "\e904";
+    content: "\e904";
 }
+
 .icon-credit-card:before {
-  content: "\e93f";
+    content: "\e93f";
 }
+
 .icon-phone:before {
-  content: "\e942";
+    content: "\e942";
 }
+
 .icon-location:before {
-  content: "\e947";
+    content: "\e947";
 }
+
 .icon-location2:before {
-  content: "\e948";
+    content: "\e948";
 }
+
 .icon-undo:before {
-  content: "\e965";
+    content: "\e965";
 }
+
 .icon-redo:before {
-  content: "\e966";
+    content: "\e966";
 }
+
 .icon-undo2:before {
-  content: "\e967";
+    content: "\e967";
 }
+
 .icon-redo2:before {
-  content: "\e968";
+    content: "\e968";
 }
+
 .icon-bubble:before {
-  content: "\e96b";
+    content: "\e96b";
 }
+
 .icon-bubbles:before {
-  content: "\e96c";
+    content: "\e96c";
 }
+
 .icon-bubbles2:before {
-  content: "\e96d";
+    content: "\e96d";
 }
+
 .icon-bubble2:before {
-  content: "\e96e";
+    content: "\e96e";
 }
+
 .icon-bubbles3:before {
-  content: "\e96f";
+    content: "\e96f";
 }
+
 .icon-bubbles4:before {
-  content: "\e970";
+    content: "\e970";
 }
+
 .icon-play2:before {
-  content: "\ea15";
+    content: "\ea15";
 }
+
 .icon-pause:before {
-  content: "\ea16";
+    content: "\ea16";
 }
+
 .icon-stop:before {
-  content: "\ea17";
+    content: "\ea17";
 }
+
 .icon-previous:before {
-  content: "\ea18";
+    content: "\ea18";
 }
+
 .icon-next:before {
-  content: "\ea19";
+    content: "\ea19";
 }
+
 .icon-backward:before {
-  content: "\ea1a";
+    content: "\ea1a";
 }
+
 .icon-forward2:before {
-  content: "\ea1b";
+    content: "\ea1b";
 }
+
 .icon-play3:before {
-  content: "\ea1c";
+    content: "\ea1c";
 }
+
 .icon-pause2:before {
-  content: "\ea1d";
+    content: "\ea1d";
 }
+
 .icon-stop2:before {
-  content: "\ea1e";
+    content: "\ea1e";
 }
+
 .icon-backward2:before {
-  content: "\ea1f";
+    content: "\ea1f";
 }
+
 .icon-forward3:before {
-  content: "\ea20";
+    content: "\ea20";
 }
+
 .icon-first:before {
-  content: "\ea21";
+    content: "\ea21";
 }
+
 .icon-last:before {
-  content: "\ea22";
+    content: "\ea22";
 }
+
 .icon-previous2:before {
-  content: "\ea23";
+    content: "\ea23";
 }
+
 .icon-next2:before {
-  content: "\ea24";
+    content: "\ea24";
 }
+
 .icon-arrow-right:before {
-  content: "\ea34";
+    content: "\ea34";
 }
+
 .icon-arrow-left:before {
-  content: "\ea38";
+    content: "\ea38";
 }
+
 .icon-arrow-right2:before {
-  content: "\ea3c";
+    content: "\ea3c";
 }
+
 .icon-arrow-left2:before {
-  content: "\ea40";
+    content: "\ea40";
 }
+
 .icon-circle-right:before {
-  content: "\ea42";
+    content: "\ea42";
 }
+
 .icon-circle-left:before {
-  content: "\ea44";
+    content: "\ea44";
 }
+
 .icon-checkbox-checked:before {
-  content: "\ea52";
+    content: "\ea52";
 }
+
 .icon-checkbox-unchecked:before {
-  content: "\ea53";
+    content: "\ea53";
 }
+
 .icon-indent-increase:before {
-  content: "\ea7b";
+    content: "\ea7b";
 }
+
 .icon-indent-decrease:before {
-  content: "\ea7c";
+    content: "\ea7c";
 }
+
 .icon-google-plus:before {
-  content: "\ea8b";
+    content: "\ea8b";
 }
+
 .icon-google-plus2:before {
-  content: "\ea8c";
+    content: "\ea8c";
 }
+
 .icon-google-plus3:before {
-  content: "\ea8d";
+    content: "\ea8d";
 }
+
 .icon-facebook:before {
-  content: "\ea90";
+    content: "\ea90";
 }
+
 .icon-facebook2:before {
-  content: "\ea91";
+    content: "\ea91";
 }
+
 .icon-instagram:before {
-  content: "\ea92";
+    content: "\ea92";
 }
+
 .icon-twitter:before {
-  content: "\ea96";
+    content: "\ea96";
 }
+
 .icon-youtube:before {
-  content: "\ea9d";
+    content: "\ea9d";
 }
+
 .icon-paypal:before {
-  content: "\ead8";
+    content: "\ead8";
 }
 
 
 
-        html {
-            overflow-y: hidden;
-        }
+html {
+    overflow-y: hidden;
+    font-family: 'icomoon'
+}
 
-        .noselect {
-            -webkit-touch-callout: none; /* iOS Safari */
-            -webkit-user-select: none; /* Safari */
-            -khtml-user-select: none; /* Konqueror HTML */
-            -moz-user-select: none; /* Firefox */
-            -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
-        }
-
-        h1 {
-            font-size: 1.5em;
-            margin: 10px;
-        }
-
-         x-star-rating {
-            font-family: 'icomoon';
-            font-size: 25px;
-            display: inline-flex;
-            cursor: pointer;
-        }
-
-        x-star-rating > .star::after {
-            content: '\e902';
-            color: #777;
-        }
-
-        x-star-rating > .star.full::after {
-            content: '\e903';
-            color:#FFC524;
-        }
-
-        * {
-            margin: 0;
-            overflow-x: hidden;
-        }
-
-        body {
-            overflow-x: hidden;
-            overflow-y: hidden;
-        }
-
-        .container {
-            position: absolute;
-            bottom: 0;
-            --n: 1;
-            display: flex;
-            align-items: center;
-            overflow-y: hidden;
-            width: 100%;
-            width: calc(var(--n)*100%);
-            height: 50.3vw;
-            max-height: 110vh;
-            transform: translate(calc(var(--tx, 0px) + var(--i, 0)/var(--n)*-100%));
-        }
-
-            .container div img {
-                width: 100vw;
-                width: calc(1000vw/var(--n));
-                user-select: none;
-                pointer-events: none;
-                z-index: -1;
-            }
-
-        .smooth {
-            transition: transform 0.5s ease-out;
-        }
-
-        .picDiv {
-            position: relative;
-            overflow-x: hidden;
-            width: 100%;
-        }
-
-        .footer {
-            position: fixed;
-            bottom: 0;
-            height: 50px;
-            background-color: black;
-            width: 100%;
-            overflow-x: hidden;
-            opacity:0.8;
-        }
-		
-.facebook{
-content:'\e900';
 }
 
-.twitter{
-content:'\e904';
+h1 {
+    font-size: 1.5em;
+    margin: 10px;
 }
 
-.instagram{
-content:'\e901';
+x-star-rating {
+    font-family: 'icomoon';
+    font-size: 25px;
+    display: inline-flex;
+    cursor: pointer;
 }
 
-         ul {
-                color:white;
-                position: fixed;
-                align-content: center;
-                transform: translate(-25%, -25%);
-                margin-left: 87.5vw;
-                font-size:8px;
-                bottom:-0.5vh;
-           }
+    x-star-rating > .star::after {
+        content: '\e902';
+        color: #777;
+    }
 
-        li {
-            list-style-type: none;
-            float: left;
-            margin-right: 1vw;
-        }
+    x-star-rating > .star.full::after {
+        content: '\e903';
+        color: #FFC524;
+    }
 
-        i {
-            transition: all .2s ease-in-out;
-        }
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
 
-        i:hover {
-            cursor: pointer;
-            transform: scale(1.1);
-        }
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    --n: 1;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    width: 100%;
+    width: calc(var(--n)*100%);
+    height: 50.3vw;
+    max-height: 110vh;
+    transform: translate(calc(var(--tx, 0px) + var(--i, 0)/var(--n)*-100%));
+}
+
+    .container div img {
+        width: 100vw;
+        width: calc(1000vw/var(--n));
+        user-select: none;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+.smooth {
+    transition: transform 0.5s ease-out;
+}
+
+.picDiv {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    overflow-x: hidden;
+    opacity: 0.8;
+}
+
+
+ul {
+    color: white;
+    position: fixed;
+    align-content: center;
+    margin-left: 87.5vw;
+    font-size: 8px;
+    bottom: -0.5vh;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin-right: 0.7vw;
+}
+
+facebook::after {
+    content: "\e900";
+    font-size: 45px;
+}
+
+facebook:hover {
+    cursor: pointer;
+    color: #163f94;
+}
+
+instagram::after {
+    content: "\e901";
+    font-size: 45px;
+}
+
+instagram:hover {
+    cursor: pointer;
+    color: #d5225f;
+}
+
+    twitter::after {
+        content: "\e904";
+        font-size: 45px;
+    }
+
+twitter:hover {
+    cursor: pointer;
+    color: #1da1f2;
+}
