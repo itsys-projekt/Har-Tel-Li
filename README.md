@@ -62,6 +62,12 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Changed opacity of the black footer (debatable if that looks better)
 
+## Update Log 1.7:
+
+-Added custom font (symbols only), replaced stars with custom font stars
+
+-Font-Readme_How_to_use is in folder font
+
 ### extra Update Log 0.1:
 
 1. Created whole new Project for more structure and fusioning the other components
