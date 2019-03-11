@@ -228,7 +228,7 @@
 
         x-star-rating > .star.full::after {
             content: '\e903';
-            color: #fd0;
+            color:#FFA500;
         }
 
         * {
