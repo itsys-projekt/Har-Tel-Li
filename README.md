@@ -70,7 +70,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 ->replaced social media icons with custom font social media icons
 
--Font-Readme_How_to_use is in folder font
+-Font-Readme_How_to_use is in "fonts"-folder
 
 ### extra Update Log 0.1:
 
