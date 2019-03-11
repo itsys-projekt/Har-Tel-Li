@@ -192,9 +192,6 @@
 
 
 
-
-
-
         html {
             overflow-y: hidden;
         }
@@ -228,7 +225,7 @@
 
         x-star-rating > .star.full::after {
             content: '\e903';
-            color:#FFA500;
+            color:#FFC524;
         }
 
         * {
