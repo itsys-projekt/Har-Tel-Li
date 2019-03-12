@@ -1,7 +1,3 @@
-function PageInit() {
-    newPic10Sec();
-}
-
 //For the slideable Pictures
 
 let _C = document.querySelector('.container');
@@ -85,7 +81,7 @@ function newPic10Sec(){
         }, 1000);
     }
 }
-
+newPic10Sec();
 
 //For StarRating
 		class StarRating extends HTMLElement {
