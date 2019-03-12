@@ -1,4 +1,4 @@
-//For the slideable Pictures
+﻿//For the slideable Pictures
 
 var container = document.querySelector('.container');
 N = container.children.length;
