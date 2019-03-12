@@ -74,7 +74,9 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 ## Update Log 1.9:
 
--Added function => next Picture every 10s; after every pic goes back to starting pic.
+-Added function newPic10Sec() => next Picture every 10s; after every pic goes back to starting pic.
+
+-Added function PageInit() => fires after DOM is fully loaded.
 
 ### extra Update Log 0.1:
 
