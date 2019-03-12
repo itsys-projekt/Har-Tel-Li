@@ -1,9 +1,9 @@
 //For the slideable Pictures
 
-let _C = document.querySelector('.container');
-N = _C.children.length;
+var container = document.querySelector('.container');
+N = container.children.length;
 
-let i = 0,
+var i = 0,
     x0 = null,
     locked = false;
 
@@ -14,14 +14,14 @@ function unify(e) {
 function lock(e) {
     x0 = unify(e).clientX;
 
-    _C.classList.toggle('smooth', !(locked = true));
+    container.classList.toggle('smooth', !(locked = true));
 }
 
 function drag(e) {
     e.preventDefault();
 
     if (locked) {
-        _C.style.setProperty('--tx', ''.concat(Math.round(unify(e).clientX - x0), 'px'));
+        container.style.setProperty('--tx', ''.concat(Math.round(unify(e).clientX - x0), 'px'));
     }
 }
 
@@ -29,76 +29,76 @@ function move(e) {
     if (locked) {
         let dx = unify(e).clientX - x0,
             s = Math.sign(dx);
-        if ((i > 0 || s < 0) && (i < N - 1 || s > 0)) _C.style.setProperty('--i', i -= s);
+        if ((i > 0 || s < 0) && (i < N - 1 || s > 0)) container.style.setProperty('--i', i -= s);
 
-        _C.style.setProperty('--tx', '0px');
+        container.style.setProperty('--tx', '0px');
 
-        _C.classList.toggle('smooth', !(locked = false));
+        container.classList.toggle('smooth', !(locked = false));
 
         x0 = null;
     }
 }
 
-_C.style.setProperty('--n', N);
+container.style.setProperty('--n', N);
 
-_C.addEventListener('mousedown', lock, false);
+container.addEventListener('mousedown', lock, false);
 
-_C.addEventListener('touchstart', lock, false);
+container.addEventListener('touchstart', lock, false);
 
-_C.addEventListener('mousemove', drag, false);
+container.addEventListener('mousemove', drag, false);
 
-_C.addEventListener('touchmove', drag, false);
+container.addEventListener('touchmove', drag, false);
 
-_C.addEventListener('mouseup', move, false);
+container.addEventListener('mouseup', move, false);
 
-_C.addEventListener('touchend', move, false);
+container.addEventListener('touchend', move, false);
 
-
-function newPic10Sec(){
+function newPic10Sec() {
     var timeleft = 10;
     var iMax = document.querySelectorAll("div.picDiv").length;
 
     if (timeleft == 10) {
         var timer = setInterval(function () {
-        timeleft -= 1;
+            timeleft -= 1;
 
             if (timeleft <= 0) {
                 //console.log("nächstes Bild");
                 if (i < iMax) {
-                    _C.style.setProperty('--i', i++);
-                    _C.classList.toggle('smooth', !(locked = false));
+                    container.style.setProperty('--i', i++);
+                    container.classList.toggle('smooth', !(locked = false));
                 } else if (i = iMax) {
-                    _C.style.setProperty('--i', i=0);
-                    _C.classList.toggle('smooth', !(locked = false));
+                    container.style.setProperty('--i', i = 0);
+                    container.classList.toggle('smooth', !(locked = false));
                 }
 
                 clearInterval(timer);
-                timeleft = 10;
                 newPic10Sec();
             }
 
             console.log(timeleft);
         }, 1000);
+
     }
 }
 newPic10Sec();
 
+
 //For StarRating
-		class StarRating extends HTMLElement {
-    get value () {
+class StarRating extends HTMLElement {
+    get value() {
         return this.getAttribute('value') || 0;
     }
 
-    set value (val) {
+    set value(val) {
         this.setAttribute('value', val);
         this.highlight(this.value - 1);
     }
 
-    get number () {
+    get number() {
         return this.getAttribute('number') || 5;
     }
 
-    set number (val) {
+    set number(val) {
         this.setAttribute('number', val);
 
         this.stars = [];
@@ -117,13 +117,13 @@ newPic10Sec();
         this.value = this.value;
     }
 
-    highlight (index) {
+    highlight(index) {
         this.stars.forEach((star, i) => {
             star.classList.toggle('full', i <= index);
         });
     }
 
-    constructor () {
+    constructor() {
         super();
 
         this.number = this.number;
@@ -152,7 +152,3 @@ newPic10Sec();
 }
 
 customElements.define('x-star-rating', StarRating);
-
-
-
-
