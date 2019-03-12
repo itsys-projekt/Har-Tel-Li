@@ -76,7 +76,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Added function newPic10Sec() => next Picture every 10s; after every pic goes back to starting pic.
 
--Made Website more responsive
+-Made Website more responsive (responsiveness doesnt show, start website manualy)
 
 ### extra Update Log 0.1:
 
