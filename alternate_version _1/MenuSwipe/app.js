@@ -54,7 +54,33 @@ _C.addEventListener('mouseup', move, false);
 _C.addEventListener('touchend', move, false);
 
 
+function newPic10Sec(){
+    var timeleft = 10;
+    var iMax = document.querySelectorAll("div.picDiv").length;
 
+    if (timeleft == 10) {
+        var timer = setInterval(function () {
+        timeleft -= 1;
+
+            if (timeleft <= 0) {
+                //console.log("nächstes Bild");
+                if (i < iMax) {
+                    _C.style.setProperty('--i', i++);
+                    _C.classList.toggle('smooth', !(locked = false));
+                } else if (i = iMax) {
+                    _C.style.setProperty('--i', i=0);
+                    _C.classList.toggle('smooth', !(locked = false));
+                }
+
+                clearInterval(timer);
+                timeleft = 10;
+                newPic10Sec();
+            }
+
+            console.log(timeleft);
+        }, 1000);
+    }
+}
 
 
 //For StarRating
