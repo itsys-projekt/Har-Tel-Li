@@ -62,7 +62,7 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Changed opacity of the black footer (debatable if that looks better)
 
-## Update Log 1.7:
+## Update Log 1.8:
 
 -Added custom font (symbols only);
 
@@ -71,6 +71,10 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 ->replaced social media icons with custom font social media icons
 
 -Font-Readme_How_to_use is in "fonts"-folder
+
+## Update Log 1.9:
+
+-Added function => next Picture every 10s; after every pic goes back to starting pic.
 
 ### extra Update Log 0.1:
 
