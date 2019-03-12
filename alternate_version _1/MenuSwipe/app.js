@@ -1,3 +1,7 @@
+function PageInit() {
+    newPic10Sec();
+}
+
 //For the slideable Pictures
 
 let _C = document.querySelector('.container');
