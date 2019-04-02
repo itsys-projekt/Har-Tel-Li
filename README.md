@@ -78,8 +78,6 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Made Website more responsive (responsiveness doesnt show, start website manualy)
 
-### extra Update Log 0.1:
+### extra Update Log 0.0.1:
 
-1. Created whole new Project for more structure and fusioning the other components
-2. added ``.json`` for Login (Admin Login) so we **don't** need Database
-3. Used Twig to display the images, all images include the black footer with star rating
+- Created new Project -> Symfony
