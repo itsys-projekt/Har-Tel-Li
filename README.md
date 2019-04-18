@@ -80,9 +80,9 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 ### extra Update Log 0.0.1:
 
-- Created new Project -> Symfony
+-> Created new Project -> Symfony
 
 ### extra Update Log 0.0.2:
 
-- Add to Cart Button with functionality
-- Cart is loading Quantity and total price in Template
+-> Add to Cart Button with functionality
+-> Cart is loading Quantity and total price in Template
