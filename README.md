@@ -78,16 +78,16 @@ https://itsys-projekt.github.io/Har-Tel-Li/social_media_icons/social_media_icons
 
 -Made Website more responsive (responsiveness doesnt show, start website manualy)
 
-### extra Update Log 0.0.1:
+# Major Step 1:
 
 -> Created new Project -> Symfony
 
-### extra Update Log 0.0.2:
+# Major Step 2:
 
 -> Add to Cart Button with functionality
 -> Cart is loading Quantity and total price in Template
 
-### extra Update Log 0.0.3:
+# Major Step 3:
 
 -> Removed Constants as a class and made it into a json where PHP is reading the different configuration (eg. prices.json, template names)
 
